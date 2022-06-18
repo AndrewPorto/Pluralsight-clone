@@ -123,19 +123,40 @@ form .btn-sign:hover {
 
 @media screen and (min-width: 768px) {
     body {
-        height: 100vh;
+        height: 100%;
+        overflow: hidden;
     }
     
     .container {
-        width: 600px;
+        width: 750px;
+        height: 100vw;
+        padding: 40px;
+    }
+
+    img {
+        padding-top: 30px;
     }
 
     .central {
         display: flex;
         flex-direction: row;
-        height: 100vh;
+        
         
     }
+
+    .central .left .container {
+        margin-top: 20px;
+    }
+
+    .central .left .container form {
+        margin-top: 30px;
+    }
+
+    .pw-sign .btn-create {
+        margin-top: 40px;
+    }
+
+   
 
     .right {
         display: flex;

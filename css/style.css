@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #181818;
+}
+
+.container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.logo{
+    width: 300px;  
+}
+
+.formulario {
+    color: #fff;
+    text-align: left;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+form p {
+    padding-bottom: 5px;
+    font-size: 14.4px;
+}
+
+form .p-password {
+    margin-top: 20px;
+}
+
+form input {
+    background-color: #181818;
+    height: 40px;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    color: #FFF;
+    text-indent: 15px;
+}
+
+form .btn-sign {
+    margin-top: 10px;
+    height: 45px;
+    color: #FFF;
+    background-color: #F96816;
+    border: none;
+    border-radius: 2px;
+    font-size: 13.3333px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form .btn-sign:hover {
+    background-color: #ff7b39;;
+}
+
+.pw-sign {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.pw-sign a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14.4px;
+    line-height: 30px;
+}
+
+.pw-sign p {
+    color: #FFF;
+    padding: 15px;
+}
+
+.pw-sign .btn-create {
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pw-sign .btn-create:hover {
+    color: #F96816;
+    border: 1px solid #F96816;
+}
+
+.form-footer {
+    color: #CCC9C7;
+    margin-top: 50px;
+    font-size: 12.8px;
+}
+
+.form-footer a {
+    color:#F96816;
+    line-height: 40px;
+}
+
+.right {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+    
+    .container {
+        width: 600px;
+    }
+
+    .central {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        
+    }
+
+    .right {
+        display: flex;
+        background-image: url(../img/login-bg.jpg);
+        background-position: cover;
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .right h2 {
+        font-size: 48px;
+        color: #FFF;
+        padding: 10px;
+        font-family: "Roboto";
+        font-weight: 200;
+        margin-top: 400px;
+       
+    }
+
+    .right .start {
+        width: 385px;
+        height: 45px;
+        background-color: transparent;
+        border: 1px solid #FFF;
+        color: #FFF;
+        cursor: pointer;
+        font-size: "Roboto";
+        font-size: 16px;
+        margin-top: 10px;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+
+    .right .start:hover {
+        color: #F96816;
+        border: 1px solid #F96816;
+    }
+
+    .form-footer a {
+        color:#F96816;
+        line-height: 40px;
+        
+    }
+
+}
+    
